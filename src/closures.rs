@@ -18,7 +18,7 @@ pub fn test_closures() {
     change_last_name(String::from("xq2"));
     change_last_name(String::from("xq3"));
     println!(
-        "after change_last_name, last_name is {:?}",
-        person.last_name
+        "first_name is {:?},after change_last_name, last_name is {:?}",
+        person.first_name, person.last_name
     );
 }
